@@ -1,1 +1,15 @@
 测试Git上传代码
+Git的命令：
+
+ssh -T git@github.com // 查看 SSH 配置的状态
+
+git init // 初始化本地仓库
+git clone url // 克隆代码
+git add *** // 添加单个文件或文件夹
+git add . // 添加全部文件
+git commit -m "first commit" // 提交文件说明，一定要跟-m添加描述信息，否则非法
+git push origin master // 提交代码
+git pull origin master // 同步代码，origin 部分指定的是远程仓库的git地址，master部分指定的是同步到那个分支上
+
+git status // 查看自上次提交后文件的修改情况
+git log //查看日志---提交人 提交日期 描述
